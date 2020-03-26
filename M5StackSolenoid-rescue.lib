@@ -1,0 +1,296 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CAP0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF CAP0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue C 0 40 Y Y 1 L N
+F0 "C" 60 115 59 H V L BNN
+F1 "CAP0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" 60 -85 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 20 80 40 1 0 0 F
+S -80 60 80 80 1 0 0 F
+P 2 1 0 0 0 0 0 20 N
+P 2 1 0 0 0 100 0 80 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# CON_USB-A-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF CON_USB-A-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue X 0 40 Y Y 1 L N
+F0 "X" -150 350 59 H V L BNN
+F1 "CON_USB-A-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" -150 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 50 -80 85 0 1 0 USB Normal 0 L B
+P 2 1 0 0 -100 -200 100 -200 N
+P 2 1 0 0 -100 300 -100 -200 N
+P 2 1 0 0 100 -200 100 300 N
+P 2 1 0 0 100 300 -100 300 N
+X 1 1 -200 200 100 R 50 0 1 0 P
+X 2 2 -200 100 100 R 50 0 1 0 P
+X 3 3 -200 0 100 R 50 0 1 0 P
+X 4 4 -200 -100 100 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# CON_USB-C-6-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF CON_USB-C-6-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue CN 0 40 Y Y 1 L N
+F0 "CN" -200 -400 59 H V L BNN
+F1 "CON_USB-C-6-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -300 -300 -300 400 N
+P 2 1 0 0 -300 400 200 400 N
+P 2 1 0 0 200 -300 -300 -300 N
+P 2 1 0 0 200 400 200 -300 N
+X GND1 A12 -500 -100 200 R 50 50 1 0 B
+X CC1 A5 -500 100 200 R 50 50 1 0 B
+X VBUS1 A9 -500 300 200 R 50 50 1 0 B
+X GND2 B12 -500 -200 200 R 50 50 1 0 B
+X CC2 B5 -500 0 200 R 50 50 1 0 B
+X VBUS2 B9 -500 200 200 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# DIODESOD123FL-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF DIODESOD123FL-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue D 0 40 Y Y 1 L N
+F0 "D" -100 100 59 H V L BNN
+F1 "DIODESOD123FL-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -50 0 N
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 0 -50 -50 N
+P 2 1 0 0 -50 50 -50 0 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+P 2 1 0 0 100 0 50 0 N
+X P$A P$A -100 0 0 R 0 0 1 0 B
+X P$K P$K 100 0 0 L 0 0 1 0 B
+ENDDRAW
+ENDDEF
+#
+# JUMPER_SJS-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF JUMPER_SJS-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue CN 0 40 Y Y 1 L N
+F0 "CN" -100 100 59 H V L BNN
+F1 "JUMPER_SJS-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" -100 -150 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
+A 14 0 49 -888 888 1 0 1 F 15 -49 15 49
+P 2 1 0 0 -100 0 -65 0 N
+P 2 1 0 0 100 0 65 0 N
+X 1 1 -200 0 100 R 50 0 1 0 P
+X 2 2 200 0 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# MBUS_SEPNOHOLE-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF MBUS_SEPNOHOLE-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue CN 0 40 Y Y 1 L N
+F0 "CN" -2600 800 59 H V L BNN
+F1 "MBUS_SEPNOHOLE-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -700 800 59 0 1 0 Bottom Normal 0 L B
+T 0 -1900 800 59 0 1 0 Top Normal 0 L B
+P 2 1 0 0 -2600 -2300 -2600 800 N
+P 2 1 0 0 -2600 800 -1700 800 N
+P 2 1 0 0 -1700 -2300 -2600 -2300 N
+P 2 1 0 0 -1700 800 -1700 -2300 N
+P 2 1 0 0 -700 -2300 -700 800 N
+P 2 1 0 0 -700 800 200 800 N
+P 2 1 0 0 200 -2300 -700 -2300 N
+P 2 1 0 0 200 800 200 -2300 N
+X GND P$B1 -900 -2000 200 R 50 50 1 0 B
+X G26-AD2-CH9 P$B10 -900 -1300 200 R 50 50 1 0 B
+X G18-SCK P$B11 -900 -1700 200 R 50 50 1 0 B
+X 3V3 P$B12 -900 200 200 R 50 50 1 0 B
+X G3-RXD1 P$B13 -900 -100 200 R 50 50 1 0 B
+X G1-TXD1 P$B14 -900 0 200 R 50 50 1 0 B
+X G16-RXD2 P$B15 -900 -300 200 R 50 50 1 0 B
+X G17-TXD2 P$B16 -900 -200 200 R 50 50 1 0 B
+X G21-SDA P$B17 -900 -500 200 R 50 50 1 0 B
+X G22-SCL P$B18 -900 -400 200 R 50 50 1 0 B
+X G2-ADC2-CH2-T2 P$B19 -900 -700 200 R 50 50 1 0 B
+X G35-ADC1-CH7 P$B2 -900 -1500 200 R 50 50 1 0 B
+X G5 P$B20 -900 -800 200 R 50 50 1 0 B
+X G12-ADC2-CH5 P$B21 -900 -900 200 R 50 50 1 0 B
+X G13-ADC2-CH4-T4 P$B22 -900 -1000 200 R 50 50 1 0 B
+X G15-ADC2-CH3-T3 P$B23 -900 -1100 200 R 50 50 1 0 B
+X G0-ADC2-CH1-T1 P$B24 -900 -600 200 R 50 50 1 0 B
+X HPWR P$B25 -900 600 200 R 50 50 1 0 B
+X G34-ADC1-CH6 P$B26 -900 -1400 200 R 50 50 1 0 B
+X HPWR1 P$B27 -900 500 200 R 50 50 1 0 B
+X 5V P$B28 -900 300 200 R 50 50 1 0 B
+X HPWR2 P$B29 -900 400 200 R 50 50 1 0 B
+X GND1 P$B3 -900 -2100 200 R 50 50 1 0 B
+X BAT P$B30 -900 700 200 R 50 50 1 0 B
+X G36-ADC1-CH0 P$B4 -900 -1600 200 R 50 50 1 0 B
+X GND2 P$B5 -900 -2200 200 R 50 50 1 0 B
+X RST P$B6 -900 100 200 R 50 50 1 0 B
+X G23-MOSI P$B7 -900 -1900 200 R 50 50 1 0 B
+X G25-ADC2-CH8 P$B8 -900 -1200 200 R 50 50 1 0 B
+X G19-MISO P$B9 -900 -1800 200 R 50 50 1 0 B
+X GND_T P$T1 -1500 -2000 200 L 50 50 1 0 B
+X G26-AD2-CH9_T P$T10 -1500 -1300 200 L 50 50 1 0 B
+X G18-SCK_T P$T11 -1500 -1700 200 L 50 50 1 0 B
+X 3V3_T P$T12 -1500 200 200 L 50 50 1 0 B
+X G3-RXD1_T P$T13 -1500 -100 200 L 50 50 1 0 B
+X G1-TXD1_T P$T14 -1500 0 200 L 50 50 1 0 B
+X G16-RXD2_T P$T15 -1500 -300 200 L 50 50 1 0 B
+X G17-TXD2_T P$T16 -1500 -200 200 L 50 50 1 0 B
+X G21-SDA_T P$T17 -1500 -500 200 L 50 50 1 0 B
+X G22-SCL_T P$T18 -1500 -400 200 L 50 50 1 0 B
+X G2-ADC2-CH2-T2_T P$T19 -1500 -700 200 L 50 50 1 0 B
+X G35-ADC1-CH7_T P$T2 -1500 -1500 200 L 50 50 1 0 B
+X G5_T P$T20 -1500 -800 200 L 50 50 1 0 B
+X G12-ADC2-CH5_T P$T21 -1500 -900 200 L 50 50 1 0 B
+X G13-ADC2-CH4-T4_T P$T22 -1500 -1000 200 L 50 50 1 0 B
+X G15-ADC2-CH3-T3_T P$T23 -1500 -1100 200 L 50 50 1 0 B
+X G0-ADC2-CH1-T1_T P$T24 -1500 -600 200 L 50 50 1 0 B
+X HPWR_T P$T25 -1500 600 200 L 50 50 1 0 B
+X G34-ADC1-CH6_T P$T26 -1500 -1400 200 L 50 50 1 0 B
+X HPWR2_T P$T27 -1500 500 200 L 50 50 1 0 B
+X 5V_T P$T28 -1500 300 200 L 50 50 1 0 B
+X HPWR3_T P$T29 -1500 400 200 L 50 50 1 0 B
+X GND2_T P$T3 -1500 -2100 200 L 50 50 1 0 B
+X BAT_T P$T30 -1500 700 200 L 50 50 1 0 B
+X G36-ADC1-CH0_T P$T4 -1500 -1600 200 L 50 50 1 0 B
+X GND3_T P$T5 -1500 -2200 200 L 50 50 1 0 B
+X RST_T P$T6 -1500 100 200 L 50 50 1 0 B
+X G23-MOSI_T P$T7 -1500 -1900 200 L 50 50 1 0 B
+X G25-ADC2-CH8_T P$T8 -1500 -1200 200 L 50 50 1 0 B
+X G19-MISO_T P$T9 -1500 -1800 200 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# PMC_IP2721-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF PMC_IP2721-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue U 0 40 Y Y 1 L N
+F0 "U" 300 300 59 H V L BNN
+F1 "PMC_IP2721-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -300 -500 300 N
+P 2 1 0 0 -500 300 400 300 N
+P 2 1 0 0 400 -300 -500 -300 N
+P 2 1 0 0 400 300 400 -300 N
+X VBUSG 1 0 500 200 D 50 50 1 0 B
+X SEL 11 600 -100 200 L 50 50 1 0 B
+X CC2 12 -700 0 200 R 50 50 1 0 B
+X CC1 13 -700 100 200 R 50 50 1 0 B
+X VBUS 16 200 500 200 D 50 50 1 0 B
+X VIN 2 -200 500 200 D 50 50 1 0 B
+X GND 5 -100 -500 200 U 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# POW_+5V-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF POW_+5V-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "POW_+5V-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +5V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# POW_V+-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF POW_V+-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "POW_V+-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -35 -50 35 -50 N
+P 2 1 0 0 0 5 -35 -50 N
+P 2 1 0 0 35 -50 0 5 N
+X V+ 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# TR_NMOS_IRF7103-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue
+#
+DEF TR_NMOS_IRF7103-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue U 0 40 Y Y 2 L N
+F0 "U" 120 20 59 H V L BNN
+F1 "TR_NMOS_IRF7103-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 120 -130 59 0 1 0 S Normal 0 L B
+T 0 120 -130 59 0 2 0 S Normal 0 L B
+P 2 1 0 0 -100 0 -50 0 N
+P 2 1 0 0 -50 100 -50 -100 N
+P 2 1 0 0 0 -100 100 -100 N
+P 2 1 0 0 0 100 0 -100 N
+P 2 1 0 0 100 100 0 100 N
+P 2 2 0 0 -100 0 -50 0 N
+P 2 2 0 0 -50 100 -50 -100 N
+P 2 2 0 0 0 -100 100 -100 N
+P 2 2 0 0 0 100 0 -100 N
+P 2 2 0 0 100 100 0 100 N
+X S 1 100 -200 100 U 0 0 1 0 B
+X G 2 -100 0 0 R 0 0 1 0 B
+X D 7 100 200 100 D 0 0 1 0 B
+X S 3 100 -200 100 U 0 0 2 0 B
+X G 4 -100 0 0 R 0 0 2 0 B
+X D 5 100 200 100 D 0 0 2 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

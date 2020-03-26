@@ -1,0 +1,861 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3500 3100 3800 3100
+Wire Wire Line
+	3800 2500 3800 3100
+Wire Wire Line
+	4100 3100 3800 3100
+Connection ~ 3800 3100
+Text Label 3500 3100 0    10   ~ 0
++5V
+Wire Wire Line
+	3500 5600 3800 5600
+Wire Wire Line
+	3800 5900 3800 5600
+Wire Wire Line
+	3500 5500 3800 5500
+Wire Wire Line
+	3800 5600 3800 5500
+Wire Wire Line
+	3500 5400 3800 5400
+Wire Wire Line
+	3800 5500 3800 5400
+Wire Wire Line
+	4100 5600 3800 5600
+Wire Wire Line
+	3800 5500 4100 5500
+Wire Wire Line
+	4100 5400 3800 5400
+Connection ~ 3800 5600
+Connection ~ 3800 5500
+Connection ~ 3800 5400
+Text Label 3500 5600 0    10   ~ 0
+GND
+Wire Wire Line
+	6400 2800 6400 2900
+Wire Wire Line
+	6400 2900 6400 3200
+Wire Wire Line
+	6400 3200 6600 3200
+Wire Wire Line
+	6600 3200 6800 3200
+Wire Wire Line
+	6800 3200 7500 3200
+Wire Wire Line
+	7500 3200 8400 3200
+Wire Wire Line
+	8700 2500 8700 3200
+Wire Wire Line
+	8700 3200 8400 3200
+Connection ~ 6400 2900
+Connection ~ 6600 3200
+Connection ~ 6800 3200
+Connection ~ 7500 3200
+Connection ~ 8400 3200
+Text Label 6400 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	5800 5400 6000 5400
+Wire Wire Line
+	6000 5400 6000 5200
+Connection ~ 6000 5400
+Text Label 5800 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	6700 5400 6900 5400
+Wire Wire Line
+	6900 5400 6900 5200
+Connection ~ 6900 5400
+Text Label 6700 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 5400 7800 5400
+Wire Wire Line
+	7800 5400 7800 5200
+Connection ~ 7800 5400
+Text Label 7600 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	8600 5400 8800 5400
+Wire Wire Line
+	8800 5400 8800 5200
+Connection ~ 8800 5400
+Text Label 8600 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	3500 3700 4100 3700
+Text Label 3700 3700 0    70   ~ 0
+RXD
+Wire Wire Line
+	4100 3600 3500 3600
+Text Label 3700 3600 0    70   ~ 0
+TXD
+Wire Wire Line
+	6300 5000 6200 5000
+Text Label 6200 5000 0    70   ~ 0
+GPIO12
+Wire Wire Line
+	4100 5000 3500 5000
+Text Label 3700 5000 0    70   ~ 0
+GPIO36
+Wire Wire Line
+	3500 4700 4100 4700
+Text Label 3700 4700 0    70   ~ 0
+GPIO26
+Wire Wire Line
+	5400 5000 5300 5000
+Text Label 5300 5000 0    70   ~ 0
+GPIO26
+Wire Wire Line
+	3500 3800 4100 3800
+Text Label 3700 3800 0    70   ~ 0
+SCL
+Wire Wire Line
+	3500 3900 4100 3900
+Text Label 3700 3900 0    70   ~ 0
+SDA
+Wire Wire Line
+	3500 4500 4100 4500
+Text Label 3700 4500 0    70   ~ 0
+GPIO15
+Wire Wire Line
+	3500 3200 3900 3200
+Wire Wire Line
+	3900 2500 3900 3200
+Wire Wire Line
+	3900 3200 4100 3200
+Connection ~ 3900 3200
+Wire Wire Line
+	3500 3500 4100 3500
+Text Label 3700 3500 0    70   ~ 0
+GPIO3
+Wire Wire Line
+	4100 2800 3500 2800
+Wire Wire Line
+	3500 3000 4100 3000
+Wire Wire Line
+	4100 2900 3500 2900
+Wire Wire Line
+	4100 3000 4100 2900
+Wire Wire Line
+	4100 2800 4100 2900
+Connection ~ 4100 3000
+Connection ~ 4100 2900
+Connection ~ 4100 2800
+Text Label 3700 2800 0    70   ~ 0
+HPWR
+Wire Wire Line
+	4100 3300 3500 3300
+Text Label 3700 3300 0    70   ~ 0
+RST
+Wire Wire Line
+	3500 5300 4100 5300
+Text Label 3700 5300 0    70   ~ 0
+GPIO23
+Wire Wire Line
+	4100 5200 3500 5200
+Text Label 3700 5200 0    70   ~ 0
+GPIO19
+Wire Wire Line
+	3500 5100 4100 5100
+Text Label 3700 5100 0    70   ~ 0
+GPIO18
+Wire Wire Line
+	3500 4900 4100 4900
+Text Label 3700 4900 0    70   ~ 0
+GPIO35
+Wire Wire Line
+	4100 4800 3500 4800
+Text Label 3700 4800 0    70   ~ 0
+GPIO34
+Wire Wire Line
+	4100 4600 3500 4600
+Text Label 3700 4600 0    70   ~ 0
+GPIO25
+Wire Wire Line
+	4100 4400 3500 4400
+Text Label 3700 4400 0    70   ~ 0
+GPIO13
+Wire Wire Line
+	7200 5000 7100 5000
+Text Label 7100 5000 0    70   ~ 0
+GPIO13
+Wire Wire Line
+	3500 4300 4100 4300
+Text Label 3700 4300 0    70   ~ 0
+GPIO12
+Wire Wire Line
+	4100 4200 3500 4200
+Text Label 3700 4200 0    70   ~ 0
+GPIO5
+Wire Wire Line
+	8200 5000 8100 5000
+Text Label 8100 5000 0    70   ~ 0
+GPIO5
+Wire Wire Line
+	3500 4100 4100 4100
+Text Label 3700 4100 0    70   ~ 0
+GPIO2
+Wire Wire Line
+	3500 4000 4100 4000
+Text Label 3700 4000 0    70   ~ 0
+GPIO0
+Wire Wire Line
+	4100 3400 3500 3400
+Text Label 3700 3400 0    70   ~ 0
+GPIO1
+Wire Wire Line
+	6400 2600 6600 2600
+Wire Wire Line
+	6600 2600 6900 2600
+Wire Wire Line
+	6600 2800 6600 2600
+Connection ~ 6600 2600
+Wire Wire Line
+	6400 2700 6800 2700
+Wire Wire Line
+	6800 2700 6900 2700
+Wire Wire Line
+	6800 2800 6800 2700
+Connection ~ 6800 2700
+Wire Wire Line
+	8200 2800 8400 2800
+Connection ~ 8400 2800
+Wire Wire Line
+	6000 4600 6000 4700
+Wire Wire Line
+	6000 4700 6000 4800
+Wire Wire Line
+	6500 4300 6150 4300
+Wire Wire Line
+	6150 4300 6150 4700
+Wire Wire Line
+	6150 4700 6000 4700
+Wire Wire Line
+	5700 4100 5900 4100
+Wire Wire Line
+	5900 4100 5900 4700
+Wire Wire Line
+	5900 4700 6000 4700
+Connection ~ 6000 4700
+Connection ~ 5800 5000
+Wire Wire Line
+	6900 4600 6900 4700
+Wire Wire Line
+	6900 4700 6900 4800
+Wire Wire Line
+	6500 4500 6700 4500
+Wire Wire Line
+	6700 4500 6700 4700
+Wire Wire Line
+	6700 4700 6900 4700
+Wire Wire Line
+	5700 4700 5700 4800
+Wire Wire Line
+	5700 4800 6700 4800
+Wire Wire Line
+	6700 4800 6700 4700
+Connection ~ 6900 4700
+Connection ~ 6700 4700
+Connection ~ 6700 5000
+Wire Wire Line
+	7800 4600 7800 4700
+Wire Wire Line
+	7800 4700 7800 4800
+Wire Wire Line
+	8300 4300 7950 4300
+Wire Wire Line
+	7950 4300 7950 4700
+Wire Wire Line
+	7950 4700 7800 4700
+Wire Wire Line
+	7400 4200 7600 4200
+Wire Wire Line
+	7600 4200 7600 4700
+Wire Wire Line
+	7600 4700 7800 4700
+Connection ~ 7800 4700
+Connection ~ 7600 5000
+Wire Wire Line
+	8800 4600 8800 4700
+Wire Wire Line
+	8800 4700 8800 4800
+Wire Wire Line
+	8300 4500 8500 4500
+Wire Wire Line
+	8500 4500 8500 4700
+Wire Wire Line
+	8500 4700 8800 4700
+Wire Wire Line
+	7400 4700 7400 4800
+Wire Wire Line
+	7400 4800 8500 4800
+Wire Wire Line
+	8500 4800 8500 4700
+Connection ~ 8800 4700
+Connection ~ 8500 4700
+Connection ~ 8600 5000
+Wire Wire Line
+	3500 2700 4100 2700
+Wire Wire Line
+	8800 4300 8800 4400
+Wire Wire Line
+	8300 4400 8500 4400
+Wire Wire Line
+	8500 4400 8500 4300
+Wire Wire Line
+	8500 4300 8800 4300
+Wire Wire Line
+	6900 4300 6900 4400
+Wire Wire Line
+	6500 4400 6700 4400
+Wire Wire Line
+	6700 4400 6700 4300
+Wire Wire Line
+	6700 4300 6900 4300
+Wire Wire Line
+	6000 4200 6000 4400
+Wire Wire Line
+	6000 4200 6000 3800
+Wire Wire Line
+	6000 3800 6900 3800
+Wire Wire Line
+	6900 3800 7500 3800
+Wire Wire Line
+	7500 3800 7800 3800
+Wire Wire Line
+	7800 3800 8800 3800
+Wire Wire Line
+	8800 3800 9100 3800
+Wire Wire Line
+	9100 3800 9100 2100
+Wire Wire Line
+	6400 2500 6400 2400
+Wire Wire Line
+	6400 2400 6400 2100
+Wire Wire Line
+	6400 2100 6700 2100
+Wire Wire Line
+	6700 2100 7400 2100
+Wire Wire Line
+	7400 2100 7800 2100
+Wire Wire Line
+	7400 2200 7400 2100
+Wire Wire Line
+	7800 2200 7800 2100
+Wire Wire Line
+	7800 2100 8700 2100
+Wire Wire Line
+	8700 2200 8700 2100
+Wire Wire Line
+	9100 2100 8700 2100
+Wire Wire Line
+	6900 4300 6900 3800
+Wire Wire Line
+	8800 4300 8800 3800
+Wire Wire Line
+	5700 3800 5800 3800
+Wire Wire Line
+	5800 3800 6000 3800
+Wire Wire Line
+	5700 4400 5800 4400
+Wire Wire Line
+	5800 4400 5800 3800
+Wire Wire Line
+	7400 3900 7500 3900
+Wire Wire Line
+	7500 3900 7500 3800
+Wire Wire Line
+	7400 4400 7500 4400
+Wire Wire Line
+	7500 4400 7500 3900
+Connection ~ 8800 4300
+Connection ~ 6900 4300
+Connection ~ 6000 4200
+Connection ~ 6400 2400
+Connection ~ 7400 2100
+Connection ~ 6700 2100
+Connection ~ 7800 2100
+Connection ~ 8700 2100
+Connection ~ 6900 3800
+Connection ~ 7800 3800
+Connection ~ 8800 3800
+Connection ~ 6000 3800
+Connection ~ 5800 3800
+Connection ~ 7500 3800
+Connection ~ 7500 3900
+$Comp
+L M5StackSolenoid-rescue:POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND02
+U 1 1 4877C9E2
+P 3800 6000
+F 0 "#GND02" H 3800 6000 50  0001 C CNN
+F 1 "POW_GND" H 3800 6000 50  0001 C CNN
+F 2 "" H 3800 6000 50  0001 C CNN
+F 3 "" H 3800 6000 50  0001 C CNN
+	1    3800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_V+-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #P+04
+U 1 1 459FCD94
+P 3900 2400
+F 0 "#P+04" H 3900 2400 50  0001 C CNN
+F 1 "POW_V+" V 3800 2300 59  0000 L BNN
+F 2 "" H 3900 2400 50  0001 C CNN
+F 3 "" H 3900 2400 50  0001 C CNN
+	1    3900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_+5V-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #P+05
+U 1 1 57F4DC09
+P 3800 2400
+F 0 "#P+05" H 3800 2400 50  0001 C CNN
+F 1 "POW_+5V" V 3700 2200 59  0000 L BNN
+F 2 "" H 3800 2400 50  0001 C CNN
+F 3 "" H 3800 2400 50  0001 C CNN
+	1    3800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:MBUS_SEPNOHOLE-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue CN7
+U 1 1 BCA2B260
+P 5000 3400
+F 0 "CN7" H 2400 4200 59  0000 L BNN
+F 1 "MBUS_SEPNOHOLE" H 5000 3400 50  0001 C CNN
+F 2 "M5StackSolenoid2:MBUS_SEP_NOHOLENOTCH" H 5000 3400 50  0001 C CNN
+F 3 "" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:DIODESOD123FL-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue D1
+U 1 1 C78C3FBD
+P 6000 4500
+F 0 "D1" H 5900 4600 59  0000 L BNN
+F 1 "DIODESOD123FL" H 6000 4500 50  0001 C CNN
+F 2 "M5StackSolenoid2:SOD123FL" H 6000 4500 50  0001 C CNN
+F 3 "" H 6000 4500 50  0001 C CNN
+	1    6000 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:PMC_IP2721-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue U1
+U 1 1 94FABF20
+P 7600 2700
+F 0 "U1" H 7900 3000 59  0000 L BNN
+F 1 "PMC_IP2721" H 7600 2700 50  0001 C CNN
+F 2 "M5StackSolenoid2:TSSOP16" H 7600 2700 50  0001 C CNN
+F 3 "" H 7600 2700 50  0001 C CNN
+	1    7600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:CON_USB-C-6-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue CN3
+U 1 1 D69C38F6
+P 5900 2700
+F 0 "CN3" H 5700 2300 59  0000 L BNN
+F 1 "CON_USB-C-6" H 5900 2700 50  0001 C CNN
+F 2 "M5StackSolenoid2:USB-C_6P" H 5900 2700 50  0001 C CNN
+F 3 "" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R1
+U 1 1 6E275B90
+P 6600 3000
+F 0 "R1" H 6450 3059 59  0000 L BNN
+F 1 "5.1k" H 6450 2870 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 6600 3000 50  0001 C CNN
+F 3 "" H 6600 3000 50  0001 C CNN
+	1    6600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R2
+U 1 1 BF1FBC2D
+P 6800 3000
+F 0 "R2" H 6650 3059 59  0000 L BNN
+F 1 "5.1k" H 6650 2870 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 6800 3000 50  0001 C CNN
+F 3 "" H 6800 3000 50  0001 C CNN
+	1    6800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND01
+U 1 1 8DA2BB24
+P 6600 3300
+F 0 "#GND01" H 6600 3300 50  0001 C CNN
+F 1 "POW_GND" H 6600 3300 50  0001 C CNN
+F 2 "" H 6600 3300 50  0001 C CNN
+F 3 "" H 6600 3300 50  0001 C CNN
+	1    6600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:JUMPER_SJS-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue CN4
+U 1 1 61EA98FF
+P 8400 2600
+F 0 "CN4" H 8300 2700 59  0000 L BNN
+F 1 "JUMPER_SJS" H 8300 2450 59  0000 L BNN
+F 2 "M5StackSolenoid2:JUMPER_SJS" H 8400 2600 50  0001 C CNN
+F 3 "" H 8400 2600 50  0001 C CNN
+	1    8400 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:JUMPER_SJS-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue CN5
+U 1 1 12D0B2D4
+P 8400 3000
+F 0 "CN5" H 8300 3100 59  0000 L BNN
+F 1 "JUMPER_SJS" H 8300 2850 59  0000 L BNN
+F 2 "M5StackSolenoid2:JUMPER_SJS" H 8400 3000 50  0001 C CNN
+F 3 "" H 8400 3000 50  0001 C CNN
+	1    8400 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_+5V-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #P+02
+U 1 1 637B3A6A
+P 8400 2300
+F 0 "#P+02" H 8400 2300 50  0001 C CNN
+F 1 "POW_+5V" V 8400 2000 59  0000 L BNN
+F 2 "" H 8400 2300 50  0001 C CNN
+F 3 "" H 8400 2300 50  0001 C CNN
+	1    8400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:CAP0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue C1
+U 1 1 24F56349
+P 6700 2300
+F 0 "C1" H 6760 2415 59  0000 L BNN
+F 1 "CAP0603" H 6760 2215 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 6700 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:CAP0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue C2
+U 1 1 4071D1F9
+P 8700 2400
+F 0 "C2" H 8760 2515 59  0000 L BNN
+F 1 "CAP0603" H 8760 2315 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 8700 2400 50  0001 C CNN
+F 3 "" H 8700 2400 50  0001 C CNN
+	1    8700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND03
+U 1 1 21137572
+P 6700 2500
+F 0 "#GND03" H 6700 2500 50  0001 C CNN
+F 1 "POW_GND" H 6700 2500 50  0001 C CNN
+F 2 "" H 6700 2500 50  0001 C CNN
+F 3 "" H 6700 2500 50  0001 C CNN
+	1    6700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R3
+U 1 1 12AB12F6
+P 5600 5000
+F 0 "R3" H 5650 5059 59  0000 L BNN
+F 1 "100" H 5450 4870 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 5600 5000 50  0001 C CNN
+F 3 "" H 5600 5000 50  0001 C CNN
+	1    5600 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND04
+U 1 1 12C122FD
+P 6000 5500
+F 0 "#GND04" H 6000 5500 50  0001 C CNN
+F 1 "POW_GND" H 6000 5500 50  0001 C CNN
+F 2 "" H 6000 5500 50  0001 C CNN
+F 3 "" H 6000 5500 50  0001 C CNN
+	1    6000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R4
+U 1 1 B13F4994
+P 5800 5200
+F 0 "R4" H 5650 5259 59  0000 L BNN
+F 1 "10k" H 5750 5070 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 5800 5200 50  0001 C CNN
+F 3 "" H 5800 5200 50  0001 C CNN
+	1    5800 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:DIODESOD123FL-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue D2
+U 1 1 0CADE672
+P 6900 4500
+F 0 "D2" H 6800 4600 59  0000 L BNN
+F 1 "DIODESOD123FL" H 6900 4500 50  0001 C CNN
+F 2 "M5StackSolenoid2:SOD123FL" H 6900 4500 50  0001 C CNN
+F 3 "" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R5
+U 1 1 78444BE7
+P 6500 5000
+F 0 "R5" H 6550 5059 59  0000 L BNN
+F 1 "100" H 6350 4870 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 6500 5000 50  0001 C CNN
+F 3 "" H 6500 5000 50  0001 C CNN
+	1    6500 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND05
+U 1 1 5B6A58CA
+P 6900 5500
+F 0 "#GND05" H 6900 5500 50  0001 C CNN
+F 1 "POW_GND" H 6900 5500 50  0001 C CNN
+F 2 "" H 6900 5500 50  0001 C CNN
+F 3 "" H 6900 5500 50  0001 C CNN
+	1    6900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R6
+U 1 1 1047F363
+P 6700 5200
+F 0 "R6" H 6550 5259 59  0000 L BNN
+F 1 "10k" H 6650 5070 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 6700 5200 50  0001 C CNN
+F 3 "" H 6700 5200 50  0001 C CNN
+	1    6700 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:DIODESOD123FL-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue D3
+U 1 1 93886C31
+P 7800 4500
+F 0 "D3" H 7700 4600 59  0000 L BNN
+F 1 "DIODESOD123FL" H 7800 4500 50  0001 C CNN
+F 2 "M5StackSolenoid2:SOD123FL" H 7800 4500 50  0001 C CNN
+F 3 "" H 7800 4500 50  0001 C CNN
+	1    7800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R7
+U 1 1 54DAD5C3
+P 7400 5000
+F 0 "R7" H 7450 5059 59  0000 L BNN
+F 1 "100" H 7250 4870 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 7400 5000 50  0001 C CNN
+F 3 "" H 7400 5000 50  0001 C CNN
+	1    7400 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND06
+U 1 1 F6847280
+P 7800 5500
+F 0 "#GND06" H 7800 5500 50  0001 C CNN
+F 1 "POW_GND" H 7800 5500 50  0001 C CNN
+F 2 "" H 7800 5500 50  0001 C CNN
+F 3 "" H 7800 5500 50  0001 C CNN
+	1    7800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R8
+U 1 1 3097C624
+P 7600 5200
+F 0 "R8" H 7450 5259 59  0000 L BNN
+F 1 "10k" H 7550 5070 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 7600 5200 50  0001 C CNN
+F 3 "" H 7600 5200 50  0001 C CNN
+	1    7600 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:DIODESOD123FL-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue D4
+U 1 1 04403A79
+P 8800 4500
+F 0 "D4" H 8700 4600 59  0000 L BNN
+F 1 "DIODESOD123FL" H 8800 4500 50  0001 C CNN
+F 2 "M5StackSolenoid2:SOD123FL" H 8800 4500 50  0001 C CNN
+F 3 "" H 8800 4500 50  0001 C CNN
+	1    8800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R9
+U 1 1 9BFFCD4D
+P 8400 5000
+F 0 "R9" H 8450 5059 59  0000 L BNN
+F 1 "100" H 8250 4870 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 8400 5000 50  0001 C CNN
+F 3 "" H 8400 5000 50  0001 C CNN
+	1    8400 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:POW_GND-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue #GND07
+U 1 1 C2693486
+P 8800 5500
+F 0 "#GND07" H 8800 5500 50  0001 C CNN
+F 1 "POW_GND" H 8800 5500 50  0001 C CNN
+F 2 "" H 8800 5500 50  0001 C CNN
+F 3 "" H 8800 5500 50  0001 C CNN
+	1    8800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:RES0603-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue R10
+U 1 1 C0B20218
+P 8600 5200
+F 0 "R10" H 8450 5259 59  0000 L BNN
+F 1 "10k" H 8550 5070 59  0000 L BNN
+F 2 "M5StackSolenoid2:0603" H 8600 5200 50  0001 C CNN
+F 3 "" H 8600 5200 50  0001 C CNN
+	1    8600 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:TR_NMOS_IRF7103-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue U2
+U 1 1 4E0AB7A9
+P 6800 5000
+F 0 "U2" H 6920 5020 59  0000 L BNN
+F 1 "TR_NMOS_IRF7103" H 6800 5000 50  0001 C CNN
+F 2 "M5StackSolenoid2:SO08" H 6800 5000 50  0001 C CNN
+F 3 "" H 6800 5000 50  0001 C CNN
+	1    6800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:TR_NMOS_IRF7103-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue U2
+U 2 1 4E0AB7A5
+P 5900 5000
+F 0 "U2" H 6020 5020 59  0000 L BNN
+F 1 "TR_NMOS_IRF7103" H 5900 5000 50  0001 C CNN
+F 2 "M5StackSolenoid2:SO08" H 5900 5000 50  0001 C CNN
+F 3 "" H 5900 5000 50  0001 C CNN
+	2    5900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:TR_NMOS_IRF7103-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue U3
+U 1 1 C6A83FC2
+P 8700 5000
+F 0 "U3" H 8820 5020 59  0000 L BNN
+F 1 "TR_NMOS_IRF7103" H 8700 5000 50  0001 C CNN
+F 2 "M5StackSolenoid2:SO08" H 8700 5000 50  0001 C CNN
+F 3 "" H 8700 5000 50  0001 C CNN
+	1    8700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:TR_NMOS_IRF7103-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue U3
+U 2 1 C6A83FCE
+P 7700 5000
+F 0 "U3" H 7820 5020 59  0000 L BNN
+F 1 "TR_NMOS_IRF7103" H 7700 5000 50  0001 C CNN
+F 2 "M5StackSolenoid2:SO08" H 7700 5000 50  0001 C CNN
+F 3 "" H 7700 5000 50  0001 C CNN
+	2    7700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:CON_USB-A-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue X1
+U 1 1 8679BB61
+P 5500 4000
+F 0 "X1" H 5350 4350 59  0000 L BNN
+F 1 "CON_USB-A" H 5350 3700 59  0000 L BNN
+F 2 "M5StackSolenoid2:USB-A" H 5500 4000 50  0001 C CNN
+F 3 "" H 5500 4000 50  0001 C CNN
+	1    5500 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:CON_USB-A-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue X2
+U 1 1 EE6A8C5B
+P 5500 4600
+F 0 "X2" H 5350 4950 59  0000 L BNN
+F 1 "CON_USB-A" H 5350 4300 59  0000 L BNN
+F 2 "M5StackSolenoid2:USB-A" H 5500 4600 50  0001 C CNN
+F 3 "" H 5500 4600 50  0001 C CNN
+	1    5500 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:CON_USB-A-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue X3
+U 1 1 D0EFEB30
+P 7200 4100
+F 0 "X3" H 7050 4450 59  0000 L BNN
+F 1 "CON_USB-A" H 7050 3800 59  0000 L BNN
+F 2 "M5StackSolenoid2:USB-A" H 7200 4100 50  0001 C CNN
+F 3 "" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M5StackSolenoid-rescue:CON_USB-A-M5StackSolenoid2-eagle-import-M5StackSolenoid2-rescue-M5StackSolenoid-rescue X4
+U 1 1 38D8100C
+P 7200 4600
+F 0 "X4" H 7050 4950 59  0000 L BNN
+F 1 "CON_USB-A" H 7050 4300 59  0000 L BNN
+F 2 "M5StackSolenoid2:USB-A" H 7200 4600 50  0001 C CNN
+F 3 "" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5E68F093
+P 6300 4300
+F 0 "J1" H 6218 4617 50  0000 C CNN
+F 1 "Conn_01x04" H 6218 4526 50  0000 C CNN
+F 2 "akita:CON_HT396R_4P" H 6300 4300 50  0001 C CNN
+F 3 "~" H 6300 4300 50  0001 C CNN
+	1    6300 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4200 6500 4200
+Wire Wire Line
+	7800 4200 7800 3800
+Wire Wire Line
+	7800 4200 7800 4400
+Connection ~ 7800 4200
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5E6AD166
+P 8100 4300
+F 0 "J2" H 8018 4617 50  0000 C CNN
+F 1 "Conn_01x04" H 8018 4526 50  0000 C CNN
+F 2 "akita:CON_HT396R_4P" H 8100 4300 50  0001 C CNN
+F 3 "~" H 8100 4300 50  0001 C CNN
+	1    8100 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4200 8300 4200
+$EndSCHEMATC
