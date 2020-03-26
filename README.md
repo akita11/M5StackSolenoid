@@ -1,5 +1,9 @@
 # M5StackSolenoid
 
+<img src="https://github.com/akita11/M5StackSolenoid/blob/master/M5StackSolenoid1.jpg" width="240px">
+
+<img src="https://github.com/akita11/M5StackSolenoid/blob/master/M5StackSolenoid2.jpg" width="240px">
+
 ソレノイド（[タカハの5Vソレノイド](http://takaha.co.jp/co/product-ss#productWrapSec1)など）を制御するM5Stack用の拡張基板です。
 最大4個のソレノイドをON/OFF制御できます。
 
@@ -7,7 +11,8 @@
 
 実装するコネクタ・部品によって、以下の2通りの使い方ができます。
 - [使い方1] USBコネクタ実装（[タカハの5Vソレノイド](http://takaha.co.jp/co/product-ss#productWrapSec1)用）
-- [使い方2] 2.ネジ端子実装（一般のソレノイド）
+- [使い方2] 2.ネジ端子実装（一般のソレノイド）：以下のようになります
+<img src="https://github.com/akita11/M5StackSolenoid/blob/master/M5StackSolenoid2.jpg" width="240px">
 
 # 用意するもの
 - M5Stack
@@ -23,6 +28,7 @@
    - Ch.B : GPIO12
    - Ch.C : GPIO13
    - Ch.D : GPIO5
+※なおソレノイドの番号は、[使い方1]の場合は基板上の[A]-[D]で表示されているUSBコネクタに対応します。[使い方2]の場合は、基板上の"Ch.A"-"Ch.D"の表示に対応し、1つのネジ端子(HT396R)に2個のソレノイドを接続できます。
 
 # Author
 
