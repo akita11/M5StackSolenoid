@@ -18,12 +18,12 @@
 - M5Stack
 - USB Type-C端子のある電源（ACアダプタ、モバイルバッテリ等。ソレノイド駆動用の電源）
 - ソレノイド（用いているnMOS、ダイオードの定格内のものを用いてください）
-  - [使い方1] [タカハの5Vソレノイド](http://takaha.co.jp/co/product-ss#productWrapSec1)、microUSBケーブル、[ショートピン端子](http://akizukidenshi.com/catalog/g/gP-03687/)
+  - [使い方1] [タカハの5Vソレノイド](http://takaha.co.jp/co/product-ss#productWrapSec1)、microUSBケーブル、[ショートピン端子](http://akizukidenshi.com/catalog/g/gP-03687/)※「タカハの5Vソレノイド」に「ショートピン端子」を差し込んだ状態で使用します
   - [使い方2] ソレノイド、ネジ端子[HT396R-4P](https://ja.aliexpress.com/item/33027266661.html)、IP2721（USB PDで5V以外の電圧をソレノイド駆動に用いる場合：IP2721の使い方の詳細はIP2721のデータシートを参照してください）
 
 # 使い方
 1. M5Stackの本体(Core、底板を外した状態)に本ボードを差し込み、USB Type-C端子に電源をつなぎます。
-2. M5Stackの以下のGPIOピンに1を与えるとソレノイドがONに、0を与えるとOFFになります。（M5Stackのプログラムは、ArduinoIDE、UI Flow等で開発できます）使用例としてtest.m5f (UI Flowプログラム）を参照してください。
+1. M5Stackの以下のGPIOピンに1を与えるとソレノイドがONに、0を与えるとOFFになります。（M5Stackのプログラムは、ArduinoIDE、UI Flow等で開発できます）使用例としてtest.m5f (UI Flowプログラム）を参照してください。
    - Ch.A : GPIO26
    - Ch.B : GPIO12
    - Ch.C : GPIO13
