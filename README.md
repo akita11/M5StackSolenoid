@@ -14,6 +14,8 @@
 - [使い方2] 2.ネジ端子実装（一般のソレノイド）：以下のようになります
 <img src="https://github.com/akita11/M5StackSolenoid/blob/master/M5StackSolenoid3.jpg" width="240px">
 
+※[スイッチサイエンスで託販売しているもの](https://www.switch-science.com/catalog/6328/)は、「使い方1」の状態のものです。
+
 # 用意するもの
 - M5Stack
 - USB Type-C端子のある電源（ACアダプタ、モバイルバッテリ等。ソレノイド駆動用の電源）
