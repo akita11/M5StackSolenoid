@@ -14,7 +14,7 @@
 - [使い方2] 2.ネジ端子実装（一般のソレノイド）：以下のようになります
 <img src="https://github.com/akita11/M5StackSolenoid/blob/master/M5StackSolenoid3.jpg" width="240px">
 
-※[スイッチサイエンスで託販売しているもの](https://www.switch-science.com/catalog/6328/)は、「使い方1」の状態のものです。（5Vソレノイド用のショートピン端子が5個付属しています）
+※[スイッチサイエンスで託販売しているもの](https://www.switch-science.com/catalog/6328/)（5Vソレノイド用のショートピン端子が5個付属しています）は、「使い方1」の状態のものです。
 
 # 用意するもの
 - M5Stack
