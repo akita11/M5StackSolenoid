@@ -17,7 +17,7 @@
 ※[スイッチサイエンスで託販売しているもの](https://www.switch-science.com/catalog/6328/)（5Vソレノイド用のショートピン端子が5個付属しています）は、「使い方1」の状態のものです。
 
 # 用意するもの
-- M5Stack
+- M5Stack (Core/Gray等のCore系、またはCore2)
 - USB Type-C端子のある電源（ACアダプタ、モバイルバッテリ等。ソレノイド駆動用の電源）
 - ソレノイド（用いているnMOS、ダイオードの定格内のものを用いてください）
   - [使い方1] [タカハの5Vソレノイド](http://takaha.co.jp/co/product-ss#productWrapSec1)、microUSBケーブル、[ショートピン端子](http://akizukidenshi.com/catalog/g/gP-03687/)※「タカハの5Vソレノイド」に「ショートピン端子」を差し込んだ状態で使用します
@@ -27,9 +27,9 @@
 1. M5Stackの本体(Core、底板を外した状態)に本ボードを差し込み、USB Type-C端子に電源をつなぎます。
 1. M5Stackの以下のGPIOピンに1を与えるとソレノイドがONに、0を与えるとOFFになります。（M5Stackのプログラムは、ArduinoIDE、UI Flow等で開発できます）使用例としてtest.m5f (UI Flowプログラム）を参照してください。
    - Ch.A : GPIO26
-   - Ch.B : GPIO12
-   - Ch.C : GPIO13
-   - Ch.D : GPIO5
+   - Ch.B : GPIO12 (Core2ではGPIO27)
+   - Ch.C : GPIO13 (Core2ではGPIO19)
+   - Ch.D : GPIO5 (Core2ではGPIO33)
 
 ※なおソレノイドの番号は、[使い方1]の場合は基板上の[A]-[D]で表示されているUSBコネクタに対応します。[使い方2]の場合は、基板上の"Ch.A"-"Ch.D"の表示に対応し、1つのネジ端子(HT396R)に2個のソレノイドを接続できます。
 
